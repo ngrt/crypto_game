@@ -1,2 +1,2 @@
 from flask import Flask
-from Models import usersModel
+from models import usersModel
