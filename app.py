@@ -1,4 +1,7 @@
+#!usr/bin/python3
+
 from flask import Flask
+from controllers import usersController
 
 app = Flask(__name__)
 
@@ -9,4 +12,4 @@ def hello_world():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
